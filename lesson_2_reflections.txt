@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you intialize a repository, it can convert an existing, unversioned project to a Git repository or initialize a new empty repository
+
+You need to do it so you have the necessary files to start saving commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The repository is where Git stores the metadata and object database for your project.
+The working directory is a single checkout of one version of the project. 
+The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit.
+
+The staging area allows you to separate files so you can logically separate files when you commit them.
